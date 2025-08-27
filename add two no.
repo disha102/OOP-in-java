@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class addtwono {
+
+    public static void main(String[] args) {
+Scanner add 1=new Scanner(System.in);
+Scanner add 2=new Scanner(System.in);
+
+   System.out.println("enter a 1st number:");
+   int num1=add 1.nextInt();
+    System.out.println("enter a 2nd number:");
+   int num2=add 2.nextInt();
+   int sum=num1+num2;
+  System.out.println(sum+"sum of number");
+  }
+}
