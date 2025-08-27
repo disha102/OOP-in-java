@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class substwono {
+
+    public static void main(String[] args) {
+Scanner subs1=new Scanner(System.in);
+Scanner subs2=new Scanner(System.in);
+
+   System.out.println("enter a 1st number:");
+   int num1=subs1.nextInt();
+    System.out.println("enter a 2st number:");
+   int num2=subs2.nextInt();
+   int diff=num1-num2;
+  System.out.println(diff+"subs of number");
+  }
+}
